@@ -7,4 +7,9 @@
 
 !.config/
 .config/*
+
 !.config/nvim/
+
+!.config/tmux/
+.config/tmux/*
+!.config/tmux/tmux.conf
