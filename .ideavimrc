@@ -1,0 +1,9 @@
+set clipboard+=unnamed
+
+" turn hybrid line numbers on
+set number relativenumber
+set nu rnu
+
+" navigate between tabs with option + l or h
+nmap <M-l> <Action>(NextTab)
+nmap <M-h> <Action>(PreviousTab)
