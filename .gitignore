@@ -3,6 +3,7 @@
 
 !.gitignore
 !.ideavimrc
+!README.md
 
 !.config/
 .config/*
