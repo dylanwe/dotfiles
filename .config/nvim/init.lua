@@ -169,6 +169,11 @@ require('lazy').setup({
 -- Set highlight on search
 vim.o.hlsearch = false
 
+-- Make tabs 4 spaces
+vim.o.tabstop = 4
+
+vim.o.swapfile = false
+
 -- Make line numbers default
 vim.wo.relativenumber = true
 vim.wo.nu = true
